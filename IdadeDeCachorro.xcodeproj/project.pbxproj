@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAB6AA0B2238B921004347C3 /* dog1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB6AA0A2238B921004347C3 /* dog1.png */; };
 		EAD2641F22349BC3003B0E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2641E22349BC3003B0E63 /* AppDelegate.swift */; };
 		EAD2642122349BC3003B0E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2642022349BC3003B0E63 /* ViewController.swift */; };
 		EAD2642422349BC3003B0E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD2642222349BC3003B0E63 /* Main.storyboard */; };
 		EAD2642622349BC6003B0E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD2642522349BC6003B0E63 /* Assets.xcassets */; };
 		EAD2642922349BC6003B0E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD2642722349BC6003B0E63 /* LaunchScreen.storyboard */; };
-		EAD2643122349C26003B0E63 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD2643022349C26003B0E63 /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAB6AA0A2238B921004347C3 /* dog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog1.png; sourceTree = "<group>"; };
 		EAD2641B22349BC3003B0E63 /* IdadeDeCachorro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdadeDeCachorro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD2641E22349BC3003B0E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD2642022349BC3003B0E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		EAD2642522349BC6003B0E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD2642822349BC6003B0E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD2642A22349BC6003B0E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAD2643022349C26003B0E63 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		EAD2641D22349BC3003B0E63 /* IdadeDeCachorro */ = {
 			isa = PBXGroup;
 			children = (
-				EAD2643022349C26003B0E63 /* cachorro.png */,
+				EAB6AA0A2238B921004347C3 /* dog1.png */,
 				EAD2641E22349BC3003B0E63 /* AppDelegate.swift */,
 				EAD2642022349BC3003B0E63 /* ViewController.swift */,
 				EAD2642222349BC3003B0E63 /* Main.storyboard */,
@@ -125,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD2643122349C26003B0E63 /* cachorro.png in Resources */,
 				EAD2642922349BC6003B0E63 /* LaunchScreen.storyboard in Resources */,
 				EAD2642622349BC6003B0E63 /* Assets.xcassets in Resources */,
+				EAB6AA0B2238B921004347C3 /* dog1.png in Resources */,
 				EAD2642422349BC3003B0E63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
